@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Tecolor</title>
+<script type="text/javascript" src="./js/colorize.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/tecolor.css">
+</head>
+<body>
+<div id="wrapper">
+
+<div id="how">
+<h1>Colorize text</h1>
+<h2>How to Use</h2>
+<p>アルファベットを入力して [Convert] ボタンを押してみよう!</p>
+</div>
+
+<div id="in">
+<p>[ Input text ]</p>
+<form name="form1" id="id_form1" action="Get_sentence">
+<div id="cent">
+<textarea name="textBox1" id="id_textBox1" rows="10"></textarea>
+<br />
+<input type="button" value="Convert" id="conb" onclick="onButtonClick();" style="float: right;"/>
+</div>
+</form>
+</div>
+
+<div id="out">
+<p>[ Output text ]</p>
+<div id="mod_out"></div>
+</div>
+
+<div id="footer" class="clear">
+<p><small>&copy; 2016 fukuro</small></p>
+</div>
+
+</div>
+</body>
+</html>
